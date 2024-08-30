@@ -1,0 +1,317 @@
+/* Start Flex */
+.d-flex {
+    display: flex;
+}
+.d-block {
+    display: block;
+}
+.d-none {
+    display: none;
+}
+.just-bt {
+    justify-content: space-between;
+}
+.just-ar {
+    justify-content: space-around;
+}
+.just-c {
+    justify-content: center;
+}
+.align-c {
+    align-items: center;
+}
+.flex-1 {
+    flex: 1;
+}
+.f-wrap {
+    flex-wrap: wrap;
+}
+.f-row {
+    flex-direction: row;
+}
+.f-column {
+    flex-direction: column;
+}
+.txt-c {
+    text-align: center;
+}
+.txt-e {
+    text-align: end;
+}
+.txt-s {
+    text-align: start;
+}
+.content-c {
+    align-content: center;
+}
+.content-e {
+    align-content: end;
+}
+.content-s {
+    align-content: start;
+}
+.gap-20 {
+    gap: 20px;
+}
+.gap-30 {
+    gap: 30px;
+}
+/* End Flex */
+/* Start Padding and Margin */
+.p-5 {
+    padding: 5px;
+}
+.p-10 {
+    padding: 10px;
+}
+.p-20 {
+    padding: 20px;
+}
+.p-30 {
+    padding: 30px;
+}
+.pt-10 {
+    padding-top: 10px;
+}
+.pr-5 {
+    padding-right: 5px;
+}
+.pr-10 {
+    padding-right: 10px;
+}
+.pl-5 {
+    padding-left: 5px;
+}
+.pl-10 {
+    padding-left: 10px;
+}
+.ph-5 {
+    padding: 0 5px;
+}
+.ph-10 {
+    padding: 0 10px;
+}
+.ph-20 {
+    padding: 0 20px;
+}
+.ph-30 {
+    padding: 0 30px;
+}
+.pv-10 {
+    padding: 10px 0;
+}
+.pv-20 {
+    padding: 20px 0;
+}
+.pv-30 {
+    padding: 30px 0;
+}
+.m-10 {
+    margin: 10px;
+}
+.m-20 {
+    margin: 20px;
+}
+.mt-10 {
+    margin-top: 10px;
+}
+.mt-20 {
+    margin-top: 10px;
+}
+.mt-30 {
+    margin-top: 10px;
+}
+.ml-10 {
+    margin-left: 10px;
+}
+.ml-20 {
+    margin-left: 20px;
+}
+.mr-10 {
+    margin-right: 10px;
+}
+.mr-20 {
+    margin-right: 20px;
+}
+.mb-20 {
+    margin-bottom: 20px;
+}
+.mh-10 {
+    margin: 0 10px;
+}
+.mh-20 {
+    margin: 0 20px;
+}
+.mh-30 {
+    margin: 0 30px;
+}
+.mv-10 {
+    margin: 10px 0;
+}
+.mv-20 {
+    margin: 20px 0;
+}
+.mv-30 {
+    margin: 30px 0;
+}
+/* End Padding + Margin */
+/* Start Width + Height */
+.auto {
+    width: auto;
+}
+.w-40 {
+    width: 40px;
+} 
+.w-60 {
+    width: 60px;
+} 
+.w-80 {
+    width: 80px;
+} 
+.w-100 {
+    width: 100px;
+} 
+.w-200 {
+    width: 200px;
+} 
+.w-300 {
+    width: 300px;
+} 
+.w-full {
+    width: 100%;
+} 
+.h-40 {
+    height: 40px;
+} 
+.h-60 {
+    height: 60px;
+} 
+.h-80 {
+    height: 80px;
+} 
+.h-100 {
+    height: 100px;
+} 
+.min-h-100 {
+    min-height: 100px;
+} 
+.min-h-200 {
+    min-height: 200px;
+} 
+.min-h-300 {
+    min-height: 300px;
+} 
+.max-h-100 {
+    max-height: 100px;
+} 
+/* End Width + Height */
+/* Start Color + Background */
+.c-black {
+    color: #000;
+}
+.c-white {
+    color: #fff;
+}
+.c-grey {
+    color: #888;
+}
+.c-orange {
+    color: #f59e0b;
+}
+.c-green {
+    color: #22c55e;
+}
+.c-blue {
+    color: #0075ff;
+}
+.c-red {
+    color: #f44336;
+}
+.bg-green {
+    background: #22c55e;
+}
+.bg-blue {
+    background: #0075ff;
+}
+.bg-red {
+    background: #f44336;
+}
+.bg-white {
+    background: #fff;
+}
+.bg-black {
+    background: #000;
+}
+.bg-eee {
+    background: #eee;
+}
+.bg-blue {
+    background: #0075ff;
+}
+.bg-grey {
+    background: #888;
+}
+.bg-n {
+    background: transparent;
+}
+/* End Color + Background */
+/* Start Font */
+.fs-14 {
+    font-size: 14px;
+}
+.fs-16 {
+    font-size: 16px;
+}
+.fs-20 {
+    font-size: 20px;
+}
+.fs-30 {
+    font-size: 30px;
+}
+.capital {
+    text-transform: capitalize;
+}
+.uppercase {
+    text-transform: uppercase;
+}
+/* End Font */
+/* Start Border */
+.br-n {
+    border: none;
+}
+.br-black {
+    border: solid #000 1px;
+}
+.br-white {
+    border: solid #fff 2px;
+}
+.br-ccc {
+    border: solid #ccc 1px;
+}
+.br-eee {
+    border: solid #eee 1px;
+}
+.br-t-ccc {
+    border-top: solid #ccc 1px;
+}
+.br-l-ccc {
+    border-left: solid #ccc 1px;
+}
+.br-b-ccc {
+    border-bottom: solid #ccc 1px;
+}
+.br-r-ccc {
+    border-right: solid #ccc 1px;
+}
+.br-r50 {
+    border-radius: 50%;
+}
+.br-r7 {
+    border-radius: 7px;
+}
+/* End Border */
+/* Cursor */
+.pointer {
+    cursor: pointer;
+}
+/* Cursor */
